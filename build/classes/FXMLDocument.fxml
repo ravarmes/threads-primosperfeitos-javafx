@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="336.0" prefWidth="447.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Label layoutX="138.0" layoutY="14.0" text="Números primos e perfeitos" />
+      <Button fx:id="buttonPrimos" layoutX="84.0" layoutY="47.0" mnemonicParsing="false" onAction="#handleButtonPrimos" prefHeight="25.0" prefWidth="63.0" text="Primos" />
+      <Button fx:id="buttonPerfeitos" layoutX="278.0" layoutY="47.0" mnemonicParsing="false" onAction="#handleButtonPerfeitos" text="Perfeitos" />
+      <TextArea fx:id="textAreaPrimos" layoutX="43.0" layoutY="123.0" prefHeight="199.0" prefWidth="145.0" />
+      <TextArea fx:id="textAreaPerfeitos" layoutX="237.0" layoutY="123.0" prefHeight="200.0" prefWidth="145.0" />
+      <TextField fx:id="textFieldPrimos" layoutX="84.0" layoutY="84.0" prefHeight="25.0" prefWidth="63.0" />
+      <TextField fx:id="textFieldPerfeitos" layoutX="280.0" layoutY="84.0" prefHeight="25.0" prefWidth="63.0" />
+   </children>
+</AnchorPane>
